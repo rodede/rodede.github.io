@@ -6,11 +6,11 @@ categories: containers
 ---
 ## Vocabulary
 
-    *Layer*: a set of read-only files or commands that describe how to set up the underlying system beneath the container. Layers are built on top of each other, and each one represents a change to the filesystem.
-    *Image*: an immutable layer that forms the base of the container.
-    *Container*: an instance of the image that can be executed as an independent application. The container has a mutable layer that lies on top of the image and that is separate from the underlying layers.
-    *Registry*: a storage and content delivery system used for distributing Docker images.
-    *Repository*: a collection of related Docker images, often different versions of the same application.
+**Layer**: a set of read-only files or commands that describe how to set up the underlying system beneath the container. Layers are built on top of each other, and each one represents a change to the filesystem.  
+**Image**: an immutable layer that forms the base of the container.  
+**Container**: an instance of the image that can be executed as an independent application. The container has a mutable layer that lies on top of the image and that is separate from the underlying layers.  
+**Registry**: a storage and content delivery system used for distributing Docker images.  
+**Repository**: a collection of related Docker images, often different versions of the same application.  
 
 ## Developing 
 
