@@ -10,10 +10,9 @@ description: thoughts
 [Jekyll](https://jekyllrb.com/)
 
 [Overview](pages/overview.html)
-
-
+    <ul>
           {% assign categories_list = site.categories %}
           {% include JB/categories_list %}
-
+        </ul>
 
 
