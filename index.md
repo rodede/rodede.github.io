@@ -4,28 +4,17 @@ title: rodede blog
 tagline: blog
 description: thoughts
 ---
-<div id="archives">
+<div id="content">
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}
+
+<ul>
+ {% assign categories_list = site.categories %}   
+ {% include JB/categories_list %}
+</ul>
+
 </div>
 
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-  </div>
-{% endfor %}
-</div>
 
 [Markdown](https://daringfireball.net/projects/markdown/) 
 
