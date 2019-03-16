@@ -11,11 +11,5 @@ description: thoughts
 
 [Overview](pages/overview.html)  
 
-    <ul>
-          {% assign pages_list = site.pages %}
-          {% include JB/pages_list %}
-        </ul>
-
-
     {% assign posts_collate = site.posts %}
     {% include JB/posts_collate %}
