@@ -1,8 +1,8 @@
 ---
 layout: page
 title: rodede blog
-tagline: rodede blog
-description: rodede blog
+tagline: blog
+description: thoughts
 ---
 
 [Markdown](https://daringfireball.net/projects/markdown/) 
