@@ -34,9 +34,4 @@ Usage:
     {% endfor %}
   {% endif %}
 {% endif %}
-{% assign categories_list = site.categories %}
-
-{% comment %}<!--
 {% assign categories_list = nil %}
--->{% endcomment %}
-
