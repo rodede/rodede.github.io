@@ -11,5 +11,5 @@ description: thoughts
 
 [Overview](pages/overview.html)  
 
-    {% assign posts_collate = site.posts %}
-    {% include JB/posts_collate %}
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
