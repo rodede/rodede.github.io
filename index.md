@@ -26,6 +26,7 @@ description: thoughts
     </article>
     {% endfor %}
   </div>
+{% endfor %}
         </td>
     </tr>
 </table>
