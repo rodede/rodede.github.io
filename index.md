@@ -18,11 +18,11 @@ description: thoughts
     <div id="#{{ category_name | slugize }}"></div>
     <p></p>
 
-    <h4 class="category-head">{{ category_name }}</h3>
+    <h4 class="category-head">{{ category_name }}</h4>
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
     <article class="archive-item">
-      <h6><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      <h6><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h6>
     </article>
     {% endfor %}
   </div>
