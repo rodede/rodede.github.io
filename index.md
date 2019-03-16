@@ -12,6 +12,7 @@ description: thoughts
 [Overview](pages/overview.html)  
 
     <ul>
-          {% assign categories_list = site.categories %}
-          {% include JB/categories_list %}
+          {% assign pages_list = site.pages %}
+          {% include JB/pages_list %}
         </ul>
+
