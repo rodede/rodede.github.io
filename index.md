@@ -4,9 +4,10 @@ title: rodede blog
 tagline: blog
 description: thoughts
 ---
-
+<div id="archives">
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}
+</div>
 
 <div id="archives">
 {% for category in site.categories %}
