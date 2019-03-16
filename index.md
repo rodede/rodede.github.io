@@ -5,6 +5,9 @@ tagline: blog
 description: thoughts
 ---
 
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}
+
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
@@ -29,5 +32,3 @@ description: thoughts
 
 [Overview](pages/overview.html)  
 
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
