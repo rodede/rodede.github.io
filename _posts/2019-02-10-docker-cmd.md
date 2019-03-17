@@ -2,7 +2,7 @@
 layout: post
 title: Docker cheat sheet
 description: Docker vocabulary and commands
-categories: containers
+categories: tools
 ---
 ## Vocabulary
 
