@@ -6,12 +6,12 @@ categories: programming
 ---
 [Official page](https://romania.voxxeddays.com/bucharest/2019-03-20/)
 
-- [1st Day - Workshop](#1st-Day-Workshop)   
-- [2nd Day - Presentations](#2nd-Day-Presentations)
 
+* Do not remove this line (it will not be displayed)  
+{:toc}
 
-1st Day-Workshop
-====
+## 1st Day-Workshop
+
 [MicroProfile](https://romania.voxxeddays.com/2019/02/24/hands-on-cloud-native-java-with-microprofile-kubernetes-and-istio/)  with Emily Jiang and Graham Charters  
 [Initial project](https://github.com/OpenLiberty/tutorial-microprofile.git)  
 [Class project](https://github.com/gcharters/workshop-cloud-native-java/blob/master/README.md)  
@@ -46,8 +46,8 @@ Explore how to manage microservice traffic using Istio.
 
 [Guide](https://openliberty.io/guides/istio-intro.html)
 
-2nd Day Presentations
-====
+## 2nd Day Presentations
+
 - Devops-1 team with **Cecilia**  
 - **Venkat** paradigms 
 - [MongoDB+Spring](https://github.com/dangeabunea/VoxxedDaysBucharest2019)  
