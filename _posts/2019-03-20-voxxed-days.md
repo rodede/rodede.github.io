@@ -24,27 +24,27 @@ Kubernetes left-overs
 
 Deploy microservices in Open Liberty Docker containers to Kubernetes and manage them with the Kubernetes CLI, kubectl.
 
-(https://openliberty.io/guides/kubernetes-intro.html)
+[Guide](https://openliberty.io/guides/kubernetes-intro.html)
 
 #### Configuring microservices running in Kubernetes
 
 Explore how to externalize configuration using MicroProfile Config and configure your microservices using Kubernetes ConfigMaps and Secrets.
 
-(https://openliberty.io/guides/kubernetes-microprofile-config.html)
+[Guide](https://openliberty.io/guides/kubernetes-microprofile-config.html)
 
 
 #### Checking the health of microservices on Kubernetes
 
 Learn how to check the health of microservices on Kubernetes by setting up readiness probes to inspect MicroProfile Health Check endpoints.
 
-(https://openliberty.io/guides/kubernetes-microprofile-health.html)
+[Guide](https://openliberty.io/guides/kubernetes-microprofile-health.html)
 
 
 ### Managing microservice traffic using Istio
 
 Explore how to manage microservice traffic using Istio.
 
-(https://openliberty.io/guides/istio-intro.html)
+[Guide](https://openliberty.io/guides/istio-intro.html)
 
 2nd Day Presentations
 ====
@@ -55,9 +55,12 @@ Explore how to manage microservice traffic using Istio.
 
 ```  
 #!/bin/sh
+
 docker network create kafka
+
 docker run -d --net=kafka --name=zookeeper -e ZOOKEEPER_CLIENT_PORT=2181 confluentinc/cp-zookeeper:5.0.0
 docker run -d --net=kafka --name=kafka -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 confluentinc/cp-kafka:5.0.0
+
 docker ps  
 ```  
 
