@@ -16,8 +16,6 @@ categories: programming
 [Initial project](https://github.com/OpenLiberty/tutorial-microprofile.git)  
 [Class project](https://github.com/gcharters/workshop-cloud-native-java/blob/master/README.md)  
 
-Kubernetes left-overs
----
 ### Module 4: Microservice Deployment and Update  
 
 #### Deploying microservices to Kubernetes  
@@ -40,7 +38,7 @@ Learn how to check the health of microservices on Kubernetes by setting up readi
 [Guide](https://openliberty.io/guides/kubernetes-microprofile-health.html)
 
 
-### Managing microservice traffic using Istio
+#### Managing microservice traffic using Istio
 
 Explore how to manage microservice traffic using Istio.
 

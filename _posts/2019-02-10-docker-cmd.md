@@ -43,5 +43,9 @@ categories: tools
 ```docker kill [container]``` Kill a particular container.  
 ```docker kill $(docker ps -q)``` Kill all containers that are currently running.  
 ```docker rm [container]``` Delete a particular container that is not currently running.  
-```docker rm $(docker ps -a -q)``` Delete all containers that are not currently running.  
+```docker rm $(docker ps -a -q)``` Delete all containers that are not currently running.     
+```docker system prune``` Clean up any resources — images, containers, volumes, and networks — that are dangling (not associated with a container).    
+with ```-a``` delete all !
+
+```docker images purge``` Delete all images
 
