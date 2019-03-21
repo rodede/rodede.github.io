@@ -6,7 +6,9 @@ categories: programming
 ---
 [Official page](https://romania.voxxeddays.com/bucharest/2019-03-20/)
 
-- [1st Day - Workshop](#1st-Day-Workshop)
+- [1st Day - Workshop](#1st-Day-Workshop)   
+- [2nd Day - Presentations](#2nd-Day-Presentations)
+
 
 1st Day-Workshop
 ====
@@ -43,4 +45,23 @@ https://openliberty.io/guides/kubernetes-microprofile-health.html
 Explore how to manage microservice traffic using Istio.
 
 https://openliberty.io/guides/istio-intro.html
+
+2nd-Day-Presentations
+====
+- Devops-1 team with Cecilia  
+- Venkat paradigms 
+- [MongoDB+Spring](https://github.com/dangeabunea/VoxxedDaysBucharest2019)  
+- [Kafka Stream](https://github.com/Stream-Processing-with-Kafka-Streams/workshop)
+```
+#!/bin/sh
+
+docker network create kafka
+
+docker run -d --net=kafka --name=zookeeper -e ZOOKEEPER_CLIENT_PORT=2181 confluentinc/cp-zookeeper:5.0.0
+docker run -d --net=kafka --name=kafka -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 confluentinc/cp-kafka:5.0.0
+
+docker ps
+```
+- Serverless with Arun
+
 
