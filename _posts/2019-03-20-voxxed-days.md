@@ -64,4 +64,15 @@ docker ps
 
 - Serverless with **Arun**
 
+## 3rd Day Presentations
+
+- Drinking Kafka/RabbitMQ coffee with MHeckler  
+- Fn servless Java DeLaBaSSe  
+- Kubernetes lab with Laurentiu [Source](https://github.com/lspil/voxxeddays2019)
+[PDF samples ][1]
+[PPT presentation ][2]
+
+[1]:{{ site.url }}/assets/files/samples.pdf
+[2]:{{ site.url }}/assets/files/presentation.pptx  
+
 
