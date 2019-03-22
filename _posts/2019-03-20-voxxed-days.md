@@ -66,13 +66,15 @@ docker ps
 
 ## 3rd Day Presentations
 
-- Drinking Kafka/RabbitMQ coffee with MHeckler  
-- Fn servless Java DeLaBaSSe  
+- Drinking Kafka/RabbitMQ coffee with MHeckler [Code](https://github.com/mkheck/drinking-from-the-stream) 
+- Fn servless Java DeLaBaSSe  [Github](https://github.com/fnproject/fn)
 - Kubernetes lab with Laurentiu [Source](https://github.com/lspil/voxxeddays2019)
 [PDF samples ][1]
-[PPT presentation ][2]
+[PPT presentation ][2]  
+- 12 factors @ammbra1508
+- Victor [Tardigrada](https://ro.wikipedia.org/wiki/Tardigrada)
 
-[1]:{{ site.url }}/assets/files/samples.pdf
-[2]:{{ site.url }}/assets/files/presentation.pptx  
+[1]:{{ site.url }}/assets/files/voxxedday2019_k8_samples.pdf
+[2]:{{ site.url }}/assets/files/voxxedday2019_k8_presentation.pptx  
 
 
