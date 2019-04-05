@@ -16,34 +16,6 @@ categories: programming
 [Initial project](https://github.com/OpenLiberty/tutorial-microprofile.git)  
 [Class project](https://github.com/gcharters/workshop-cloud-native-java/blob/master/README.md)  
 
-### Module 4: Microservice Deployment and Update  
-
-#### Deploying microservices to Kubernetes  
-
-Deploy microservices in Open Liberty Docker containers to Kubernetes and manage them with the Kubernetes CLI, kubectl.
-
-[Guide](https://openliberty.io/guides/kubernetes-intro.html)
-
-#### Configuring microservices running in Kubernetes
-
-Explore how to externalize configuration using MicroProfile Config and configure your microservices using Kubernetes ConfigMaps and Secrets.
-
-[Guide](https://openliberty.io/guides/kubernetes-microprofile-config.html)
-
-
-#### Checking the health of microservices on Kubernetes
-
-Learn how to check the health of microservices on Kubernetes by setting up readiness probes to inspect MicroProfile Health Check endpoints.
-
-[Guide](https://openliberty.io/guides/kubernetes-microprofile-health.html)
-
-
-#### Managing microservice traffic using Istio
-
-Explore how to manage microservice traffic using Istio.
-
-[Guide](https://openliberty.io/guides/istio-intro.html)
-
 ## 2nd Day Presentations
 
 - Devops-1 team with **Cecilia**  
@@ -71,7 +43,7 @@ docker ps
 - Kubernetes lab with Laurentiu [Source](https://github.com/lspil/voxxeddays2019)
 [PDF samples ][1]
 [PPT presentation ][2]  
-- 12 factors @ammbra1508
+- 12 factors @ammbra1508 [Slides](https://www.slideshare.net/AnaMariaMihalceanu1/kubernetes-amp-the-12-factor-cloud-apps-137922286)
 - Victor [Tardigrada](https://ro.wikipedia.org/wiki/Tardigrada)
 
 [1]:{{ site.url }}/assets/files/voxxedday2019_k8_samples.pdf
