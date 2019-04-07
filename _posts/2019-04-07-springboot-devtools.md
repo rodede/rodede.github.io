@@ -11,12 +11,11 @@ Normally, the Spring boot devtools should add the below features:
 - Automatic disable of template caches  
 - Built in H2 Console if the H2 database is in use  
 ~~~
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <scope>runtime</scope>
+</dependency>
 ~~~       
 
 To make it work while editing in IntelliJ, there are couple of things to be also changed:
