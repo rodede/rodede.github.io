@@ -10,14 +10,14 @@ Normally, the Spring boot devtools should add the below features:
 - Automatic browser refresh when browser-destined resources (such as templates, JavaScript, stylesheets, and so on) change  
 - Automatic disable of template caches  
 - Built in H2 Console if the H2 database is in use  
-```
+~~~
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
         </dependency>
 
-```       
+~~~       
 
 To make it work while editing in IntelliJ, there are couple of things to be also changed:
 1. Add LiveReload extension in your browser. Apparently, this cannot be installed anymore with the package provided from the [site](http://livereload.com/extensions/), but obly through Apple Appstore  
