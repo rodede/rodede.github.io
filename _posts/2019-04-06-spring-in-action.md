@@ -1,25 +1,15 @@
 ---
 layout: post
-title: SOLID principles
-description: Short memo of SOLID principle
-categories: programming
+title: Spring In Action 
+description: Spring In Action, fifth edition
+categories: spring
 ---
 
-**S** - single responsibility principle 
->_A class should have one and only one reason to change_  
+Book [here](https://www.manning.com/books/spring-in-action-fifth-edition) + [sources](https://github.com/habuma/spring-in-action-5-samples)
 
-**O** - open-closed principle 
->_You should be able to extend a classes behavior, without modifying it_  
+Notes
+=====
+Spring offers a container, often referred to as the _Spring application context_, that creates and manages application components. These components, or beans, are **wired** together inside the Spring application context to make a complete application[...] -> dependency injection (DI)
 
-**L** - Liskov substitution principle 
->_Derived classes must be substituable for their base classes_  
+Rather than have components create and maintain the lifecycle of other beans that they depend on, a dependency-injected application relies on a separate entity (the container) to create and maintain all components and inject those into the beans that need them. This is done typically through constructor arguments or property accessor methods.
 
-**I** - interface segregation principle 
->_Make fine grained interfaces that are client specific_  
-
-**D** - dependency inversion principle
->_Depend on abstractions, not on concretions_  
-
-
-
-From [here](https://filippobuletto.github.io/solid-java/#)
