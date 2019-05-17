@@ -32,12 +32,15 @@ description: thoughts
     </tr>
 </table>
 
-Pages 
----
-- [Links](/pages/links.md)   
-
 </div>
 
+Pages
+---
+- [Links](/pages/links.md)
+
+{% for page in site.pages %}
+  [{{ page.title }}]({{ page.url }})
+{% endfor %}
 
 [Markdown](https://daringfireball.net/projects/markdown/) 
 
