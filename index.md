@@ -12,6 +12,7 @@ description: thoughts
            {% include JB/posts_collate %}
         </td>
         <td>        
+
 {% for category in site.categories %}
   <div class="content">
     {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -31,6 +32,9 @@ description: thoughts
     </tr>
 </table>
 
+<h2 class="category-head">Pages</h2>
+- title: Links
+  url: pages/links.html
 
 </div>
 
