@@ -32,9 +32,9 @@ description: thoughts
     </tr>
 </table>
 
-<h2 class="category-head">Pages</h2>
-- title: Links
-  url: pages/links.html
+Pages 
+---
+- [Links](/pages/links.md)   
 
 </div>
 
